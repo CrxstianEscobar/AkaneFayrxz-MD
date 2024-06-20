@@ -7,47 +7,26 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = ""
+global.botnumber = "56958857721"
 global.confirmCode = ""
 
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador 👑', true],
-  ['51940617554', '💫 Mystic - Collaborator 2 💫', true],
-  ['51996089079', '💫 Mystic - Collaborator 3 💫', true],
-  ['5218442286089', '💫 Mystic - Collaborator 4 💫', true],
-  ['50246028932', '💫 Mystic - Collaborator 5 💫', true],
-  ['5212412377467', '💫 Mystic - Collaborator 6 💫', true],
-  ['5215517489568', '💫 Mystic - Rey Endymion 💫', false],
-  ['59895555511', '💫 Mystic - Collaborator 8 💫', true],
-  ['59175655964', '💫 Mystic - By Alba070503 💫', true],
-  ['393518398856','💫 Mystic - Tester Fabri115💫', true],
-  ['593968585283'],
-  ['5492266466080'],
-  ['5218442114446'],
-  ['59894808483'],
-  ['593980586516'], 
-  ['595975740803'],  
-  ['5492266613038'],
-  ['50497150165'],
-  ['51906662557'],
-  ['573183650526'], 
-  ['5217441298510'], 
-  ['5217294888993'],
-  ['595992611272'],
-  ['5219992843892'],
-  ['573147616444'], 
-  ['5219991402134']
-];
+  ['51985018729', '👑 𝐀𝐑𝐀𝐁𝐄 𝐁𝐎𝐓 - Creador 👑', true],
+  ['51983938228', '💫 𝐙𝐄𝐗𝐗 - Collaborator 2 💫', true],
+  ['51985018729', '💫 𝐀𝐑𝐀𝐁𝐄 𝐁𝐎𝐓 - Collaborator 3 💫', true],
+  ['51985018729', '💫 𝐀𝐑𝐀𝐁𝐄 𝐁𝐎𝐓 - Collaborator 4 💫', true],
+  ['51985018729', '💫 𝐀𝐑𝐀𝐁𝐄 𝐁𝐎𝐓 - Collaborator 5 💫', true],
+  ['51985018729', '💫 𝐀𝐑𝐀𝐁𝐄 𝐁𝐎𝐓 - Collaborator 6 💫', true],
 
-global.suittag = ['5219993404349'];
-global.prems = ['51995386439'];
+global.suittag = ['51985018729'];
+global.prems = ['51985018729'];
 
 global.packname = 'Sticker';
-global.author = 'The Mystic - Bot';
-global.wm = 'The Mystic - Bot';
-global.titulowm = 'The Mystic - Bot';
-global.titulowm2 = `The Mystic - Bot`
-global.igfg = 'The Mystic - Bot';
+global.author = '𝐀𝐑𝐀𝐁𝐈𝐀 - 𝐁𝐎𝐓;
+global.wm = '𝐀𝐑𝐀𝐁𝐈𝐀 - 𝐁𝐎𝐓;
+global.titulowm = '𝐀𝐑𝐀𝐁𝐈𝐀 - 𝐁𝐎𝐓;
+global.titulowm2 = `𝐀𝐑𝐀𝐁𝐈𝐀 - 𝐁𝐎𝐓`
+global.igfg = '𝐀𝐑𝐀𝐁𝐈𝐀 - 𝐁𝐎𝐓;
 global.wait = '*[ ⏳ ] Cargando...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -72,15 +51,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nThe Mystic - Bot`;
-global.gt = 'The Mystic - Bot';
-global.mysticbot = 'The Mystic - Bot';
-global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
+global.wm2 = `${dia} ${fecha}\nARABE JB - Bot`;
+global.gt = '𝐀𝐑𝐀𝐁𝐈𝐀 - 𝐁𝐎𝐓;
+global.arabiabot = '𝐀𝐑𝐀𝐁𝐈𝐀 - 𝐁𝐎𝐓;
+global.md = 'https://github.com/Arabia-JB-Bot';
+global.mysticbot = 'https://github.com/Arabia-JB-Bot';
 global.waitt = '*[ ⏳ ] Cargando...*';
 global.waittt = '*[ ⏳ ] Cargando...*';
 global.waitttt = '*[ ⏳ ] Cargando...*';
-global.nomorown = '5219993404349';
+global.nomorown = '51985018729';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
