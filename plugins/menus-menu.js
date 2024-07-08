@@ -10,10 +10,6 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
 
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
   try {
-    const datas = global
-    const idioma = datas.db.data.users[m.sender].language
-    const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-    const tradutor = _translate.plugins.menu_menu
     // const pp = imagen7;
 
     // let vn = './media/menu.mp3'
