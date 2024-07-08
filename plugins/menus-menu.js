@@ -1,17 +1,11 @@
 import fetch from 'node-fetch';
-
-
 // Para configurar o idioma, na raiz do projeto altere o arquivo config.json
 // Para configurar el idioma, en la raíz del proyecto, modifique el archivo config.json.
 // To set the language, in the root of the project, modify the config.json file.
-
-
 const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems }) => {
-
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
   try {
     // const pp = imagen7;
-
     // let vn = './media/menu.mp3'
     const img = './Menu2.jpg';
     const d = new Date(new Date + 3600000);
