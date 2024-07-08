@@ -2573,46 +2573,6 @@
                 "*[❗ℹ️] LE MENU A UN ERREUR ET N'A PAS PU ÊTRE ENVOYÉ, VEUILLEZ INFORMER LE PROPRIÉTAIRE DU BOT*"
             ]
         },
-        "menu_menu": {
-            "texto1": [
-                "LE MYSTIQUE - BOT",
-                "▢ *Bonjour,*",
-                "_*< VOS STATISTIQUES />*_",
-                "▢ *Niveau :* ",
-                "▢ *Expérience :* ",
-                "▢ *Classement :* ",
-                "▢ *Diamants :* ",
-                "▢ *Pièces mystiques :* ",
-                "▢ *Jetons :* ",
-                "▢ *Premium :* ",
-                " _*< LISTE DES MENUS />*_",
-                "_*< À PROPOS DU BOT />*_",
-                "_*< SOUS-BOTS />*_",
-                "_*< JEUX />*_",
-                " _*< ACTIVER/DÉSACTIVER FONCTIONNALITÉS />*_",
-                " _*< TÉLÉCHARGEMENTS />*_",
-                " _*< MOTEURS DE RECHERCHE />*_",
-                " _*< GROUPES />*_",
-                "_*< CONVERTISSEURS />*_",
-                " _*< EFFETS ET LOGOS />*_",
-                " _*< PHRASES ET TEXTES />*_",
-                " _*< ALÉATOIRE />*_",
-                " _*< EFFETS POUR AUDIOS />*_",
-                "*- Répond à un audio ou à un message vocal.*",
-                "_*< CHAT ANONYME />*_",
-                "_*< OUTILS />*_",
-                " _*< ÉCONOMIE />*_",
-                " _*< AUTOCOLLANTS />*_",
-                "_*< PROPRIÉTAIRE ET MODS. />*_",
-                "*[ ℹ️ ] Ce menu a une erreur interne, donc il n'a pas pu être envoyé.*",
-                "*<option> <temps>*_",
-                "(sans préfixe)",
-                "*<nom salle>*_"
-            ],
-            "texto2": "_< Options de langue 🌎 >_ ",
-            "texto3": "_< Langue des groupes >_",
-            "texto4": " *_🚀 Nouveau jeu de rôle pour l'extraction minière_*"
-        },
         "mipilot_serbot_broadcast": {
             "texto1": "*〔 DIFFUSION AUX SOUS-BOTS 〕*\n\n",
             "texto2": [
