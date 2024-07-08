@@ -2880,46 +2880,6 @@
                 "*[❗ℹ️] The menu has an error and could not be sent, please inform the bot owner*"
             ]
         },
-        "menu_menu": {
-            "texto1": [
-                "THE MYSTIC - BOT",
-                "▢ *Hello,*",
-                "_*< YOUR STATISTICS />*_",
-                "▢ *Level:* ",
-                "▢ *Experience:* ",
-                "▢ *Ranking:* ",
-                "▢ *Diamonds:* ",
-                "▢ *Mystical Coins:* ",
-                "▢ *Tokens:* ",
-                "▢ *Premium:* ",
-                " _*< MENU LIST />*_",
-                "_*< ABOUT THE BOT />*_",
-                "_*< SUB-BOTS />*_",
-                "_*< GAMES />*_",
-                " _*< ACTIVATE/DEACTIVATE FEATURES />*_",
-                " _*< DOWNLOADS />*_",
-                " _*< SEARCH ENGINES />*_",
-                " _*< GROUPS />*_",
-                "_*< CONVERTERS />*_",
-                " _*< EFFECTS AND LOGOS />*_",
-                " _*< PHRASES AND TEXTS />*_",
-                " _*< RANDOM />*_",
-                " _*< AUDIO EFFECTS />*_",
-                "*- Reply to an audio or voice note.*",
-                "_*< ANONYMOUS CHAT />*_",
-                "_*< TOOLS />*_",
-                " _*< ECONOMY />*_",
-                " _*< STICKERS />*_",
-                "_*< OWNER AND MODS. />*_",
-                "*[ ℹ️ ] This menu has an internal error, so it could not be sent.*",
-                "*<option> <time>*",
-                "(no prefix)",
-                "*<room name>*"
-            ],
-            "texto2": "_< Language Options 🌎 >_",
-            "texto3": "_< Group Language >_",
-            "texto4": " *_🚀 New RPG Game for Mining_*"
-        },
         "mipilot_serbot_broadcast": {
             "texto1": "*〔 SUB BOTS BROADCAST 〕*\n\n",
             "texto2": [
