@@ -55,12 +55,7 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
       conn.sendMessage(m.chat, { image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net') }, { quoted: fkontak2 });
     }
   } catch {
-    const datas = global
-    const idioma = datas.db.data.users[m.sender].language
-    const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-    const tradutor = _translate.plugins.menu_menu
-
-    conn.reply(m.chat, tradutor.texto1[29], m);
+    conn.reply(m.chat, XK, m);
   }
 };
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i;
