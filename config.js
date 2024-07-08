@@ -11,16 +11,16 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador 👑', true],
-  ['51940617554', '💫 Mystic - Collaborator 2 💫', true],
-  ['51996089079', '💫 Mystic - Collaborator 3 💫', true],
-  ['5218442286089', '💫 Mystic - Collaborator 4 💫', true],
-  ['50246028932', '💫 Mystic - Collaborator 5 💫', true],
-  ['5212412377467', '💫 Mystic - Collaborator 6 💫', true],
-  ['5215517489568', '💫 Mystic - Rey Endymion 💫', false],
-  ['59895555511', '💫 Mystic - Collaborator 8 💫', true],
-  ['59175655964', '💫 Mystic - By Alba070503 💫', true],
-  ['393518398856','💫 Mystic - Tester Fabri115💫', true],
+  ['51927238856', '👑 Cristian Escobar 👑', true],
+  ['51940617554', '💫 SB - Collaborator 2 💫', true],
+  ['51996089079', '💫 SB - Collaborator 3 💫', true],
+  ['5218442286089', '💫 SB - Collaborator 4 💫', true],
+  ['50246028932', '💫 SB - Collaborator 5 💫', true],
+  ['5212412377467', '💫 SB - Collaborator 6 💫', true],
+  ['5215517489568', '💫 SB - Rey Endymion 💫', false],
+  ['59895555511', '💫 SB - Collaborator 8 💫', true],
+  ['59175655964', '💫 SB - By Alba070503 💫', true],
+  ['393518398856','💫 SB - Tester Fabri115💫', true],
   ['593968585283'],
   ['5492266466080'],
   ['5218442114446'],
@@ -42,13 +42,13 @@ global.owner = [
 global.suittag = ['5219993404349'];
 global.prems = ['51995386439'];
 
-global.packname = 'Sticker';
-global.author = 'The Mystic - Bot';
-global.wm = 'The Mystic - Bot';
-global.titulowm = 'The Mystic - Bot';
-global.titulowm2 = `The Mystic - Bot`
-global.igfg = 'The Mystic - Bot';
-global.wait = '*[ ⏳ ] Cargando...*';
+global.packname = '𝙎𝙝𝙖𝙙𝙤𝙬 𝘽𝙤𝙩-𝙎𝙓';
+global.author = '𝙐𝙨𝙭𝙧 𝘾𝙧𝙭𝙭𝙨 🥀';
+global.wm = '𝙎𝙝𝙖𝙙𝙤𝙬 𝘽𝙤𝙩-𝙎𝙓';
+global.titulowm = '𝙎𝙝𝙖𝙙𝙤𝙬 𝘽𝙤𝙩-𝙎𝙓';
+global.titulowm2 = `𝙎𝙝𝙖𝙙𝙤𝙬 𝘽𝙤𝙩-𝙎𝙓`
+global.igfg = '𝙎𝙝𝙖𝙙𝙤𝙬 𝘽𝙤𝙩-𝙎𝙓';
+global.wait = '*⏳ Cargando...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
