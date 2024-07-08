@@ -27,7 +27,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* 
 *╰ ˚₊·˚₊· ͟͟͞͞➳❥ _By Cristian_*
 *⊰᯽⊱┈──╌•|* ⊱✿⊰ *|•╌──┈⊰᯽⊱*
-*╭┄⊰* LISTA DE MENÚS
+*╭┄⊰* `LISTA DE MENÚS`
 *│* _${usedPrefix}menuaudios_
 *│* _${usedPrefix}menuanimes_
 *│* _${usedPrefix}menu18_
