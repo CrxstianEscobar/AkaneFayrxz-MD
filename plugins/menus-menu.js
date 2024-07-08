@@ -55,7 +55,7 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
       conn.sendMessage(m.chat, { image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net') }, { quoted: fkontak2 });
     }
   } catch {
-    conn.reply(m.chat, XK, m);
+    conn.reply(m.chat, '╰⊱❗⊱ *_ERROR / MISTAKE_* ⊱❗⊱╮\n\n*_EL MENU ESTA FALLANDO INTÉNTELO MAS TARDE_*', m);
   }
 };
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i;
