@@ -2896,50 +2896,10 @@
         "menu_labiblia": {
             "texto1": [
                 "*[❗] Los comandos +18 están desactivados en este grupo, si es admin y desea activarlos use",
-                "*𝗛ola",
+                "*¡Hola!",
                 "*< MENU+18 />*",
                 "*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝚈 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙴𝙽𝚅𝙸𝙰𝚁𝙻𝙾, 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*"
             ]
-        },
-        "menu_menu": {
-            "texto1": [
-                "𝙏𝙃𝙀 𝙈𝙔𝙎𝙏𝙄𝘾 - 𝘽𝙊𝙏",
-                "▢ *Hola,*",
-                "_*< TUS ESTADÍSTICAS />*_",
-                "▢ *Nivel:* ",
-                "▢ *Experiencia:* ",
-                "▢ *Rango:* ",
-                "▢ *Diamantes:* ",
-                "▢ *MysticCoins:* ",
-                "▢ *Tokens:* ",
-                "▢ *Premium:* ",
-                " _*< LISTA DE MENUS />*_",
-                "_*< SOBRE EL BOT />*_",
-                "_*< SUB-BOTS />*_",
-                "_*< JUEGOS />*_",
-                " _*< ACT./DESACT. FUNC. />*_",
-                " _*< DESCARGAS />*_",
-                " _*< BUSCADORES />*_",
-                " _*< GRUPOS />*_",
-                "_*< CONVERTIDORES />*_",
-                " _*< EFECTOS & LOGOS />*_",
-                " _*< FRASES & TEXTOS />*_",
-                " _*< ALEATORIO />*_",
-                " _*< EFECTOS P. AUDIOS />*_",
-                "*- Responde a un audio o nota de voz.*",
-                "_*< CHAT ANÓNIMO />*_",
-                "_*< HERRAMIENTAS />*_",
-                " _*< ECONOMÍA />*_",
-                " _*< STICKERS />*_",
-                "_*< PROPIETARIO Y MODS. />*_",
-                "*[ ℹ️ ] Este menu tiene un error interno, por lo cual no fue posible enviarlo.*",
-                "*<opcion> <tiempo>*_",
-                "(sin prefijo)",
-                "*<nombre sala>*_"
-            ],
-            "texto2": "Opciones de idioma 🌎",
-            "texto3": "_lenguaje grupal_",
-            "texto4": " *_🚀 Nuevo juego de rol para minería_*"
         },
         "mipilot_serbot_broadcast": {
             "texto1": "*〔 DIFUSION A SUB BOTS 〕*\n\n",
