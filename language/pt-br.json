@@ -2885,46 +2885,7 @@
                 "*[❗ℹ️] O MENU POSSUI UM ERRO E NÃO PÔDE SER ENVIADO, POR FAVOR, INFORME AO PROPRIETÁRIO DO BOT*"
             ]
         },
-        "menu_menu": {
-            "texto1": [
-                "O MÍSTICO - BOT",
-                "▢ *Olá,*",
-                "_*< SUAS ESTATÍSTICAS />*_",
-                "▢ *Nível:* ",
-                "▢ *Experiência:* ",
-                "▢ *Classificação:* ",
-                "▢ *Diamantes:* ",
-                "▢ *Moedas Místicas:* ",
-                "▢ *Tokens:* ",
-                "▢ *Premium:* ",
-                " _*< LISTA DE MENUS />*_",
-                "_*< SOBRE O BOT />*_",
-                "_*< SUB-BOTS />*_",
-                "_*< JOGOS />*_",
-                " _*< ATIVAR/DESATIVAR FUNCIONALIDADES />*_",
-                " _*< DOWNLOADS />*_",
-                " _*< BUSCADORES />*_",
-                " _*< GRUPOS />*_",
-                "_*< CONVERSORES />*_",
-                " _*< EFEITOS E LOGOTIPOS />*_",
-                " _*< FRASES E TEXTOS />*_",
-                " _*< ALEATÓRIO />*_",
-                " _*< EFEITOS PARA ÁUDIOS />*_",
-                "*- Responde a um áudio ou nota de voz.*",
-                "_*< CHAT ANÔNIMO />*_",
-                "_*< FERRAMENTAS />*_",
-                " _*< ECONOMIA />*_",
-                " _*< STICKERS />*_",
-                "_*< PROPRIETÁRIO E MODS. />*_",
-                "*[ ℹ️ ] Este menu possui um erro interno, por isso não foi possível enviá-lo.*",
-                "*<opção> <tempo>*_",
-                "(sem prefixo)",
-                "*<nome sala>*_"
-            ],
-            "texto2": "_< Opções idioma 🌎 >_ ",
-            "texto3": "_< Idioma de Grupos >_",
-            "texto4": " *_🚀Novo Jogo RPG, para mineração_*"
-        },
+        
         "mipilot_serbot_broadcast": {
             "texto1": "*〔 DIFUSIÓN A SUB BOTS 〕*\n\n",
             "texto2": [
