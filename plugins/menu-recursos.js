@@ -4,7 +4,7 @@ import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
 
   try {
-    const pp = imagen2;
+    const pp = imagen11;
     // let vn = './media/menu.mp3'
     const d = new Date(new Date + 3600000);
     const locale = 'es';
@@ -21,8 +21,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `> ⓘ ¡Hola!, ${@taguser}
-> ${time}
+    const str = `> ⓘ ¡Hola!, ${taguser}
+> ${date}
 *˚₊·˚₊· ͟͟͞͞➳❥ _Shadow Bot-SX_*
 *☆═━┈◈ ╰ 1.4.0 SB ╯ ◈┈━═☆*
 *│* 
