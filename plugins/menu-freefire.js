@@ -1,7 +1,11 @@
 import fetch from 'node-fetch';
+
+
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
+
   try {
-    const pp = `imagen10`;
+    const pp = imagen2;
+    // let vn = './media/menu.mp3'
     const d = new Date(new Date + 3600000);
     const locale = 'es';
     const week = d.toLocaleDateString(locale, {weekday: 'long'});
@@ -17,56 +21,21 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `> ⓘ ¡Hola!, ${taguser}
-> ${date}
-*˚₊·˚₊· ͟͟͞͞➳❥ _Shadow Bot-SX_*
-*☆═━┈◈ ╰ 1.4.0 SB ╯ ◈┈━═☆*
-*│* 
-*╰ ˚₊·˚₊· ͟͟͞͞➳❥ _By Cristian_*
-*⊰᯽⊱┈──╌•|* ⊱✿⊰ *|•╌──┈⊰᯽⊱*
-*╭┄⊰* *MENÚ FREE FIRE*
-*│* _.fem4_
-*│* _.fem6_
-*│* _.feminterna4_
-*│* _.feminterna6_
-*│* _.masc4_
-*│* _.masc6_
-*│* _.mascinterna4_
-*│* _.mascinterna6_
-*│* _.mixto4_
-*│* _.mixto6_
-*│* _.mixtointerna4_
-*│* _.mixtointerna6_
-*│* _.lista4_
-*│* _.apos_
-*│* _.mapa_
-*│* _.ficha_
-*│* _.nexterra_
-*│* _.bermuda_
-*│* _.kalahari_
-*│* _.alpes_
-*│* _.agendasemanal_
-*│* _.buscarvsmasc_
-*│* _.vsmasc_
-*│* _.buscarvsfem_
-*│* _.vsfem_
-*│* _.buscarvsmixto_
-*│* _.vsmixto_
-*╰─────────────────┄⊰*`.trim();
+    const str = `🌹🌹🌹🌹`.trim();
     if (m.isGroup) {
+      // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
-      await conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
-      await conn.sendFile(m.chat, vn, 'La biblia.mp3', null, m, true, {type: 'audioMessage', ptt: true});
+      conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
     } else {
+      // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
-      await conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
-      await conn.sendFile(m.chat, vn, 'La biblia.mp3', null, m, true, {type: 'audioMessage', ptt: true});
+      conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
     }
   } catch {
-    conn.reply(m.chat, '╰⊱❌⊱ *_ERROR_* ⊱❌⊱╮\n\n*_EL MENÚ ESTÁ FALLANDO INTENTE DE NUEVO MÁS TARDE_*', m);
+    conn.reply(m.chat,'ERROR❗', m);
   }
 };
-handler.command = /^(menuff|comandosff|ff)$/i;
+handler.command = /^(ff|menuff|comandosff)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
@@ -75,4 +44,4 @@ function clockString(ms) {
   const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
   const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
   return [h, m, s].map((v) => v.toString().padStart(2, 0)).join(':');
-  }
+}
