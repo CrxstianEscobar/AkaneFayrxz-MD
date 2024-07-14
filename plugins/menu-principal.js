@@ -10,6 +10,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const locale = 'es';
     const week = d.toLocaleDateString(locale, {weekday: 'long'});
     const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 'numeric'});
+    const time = d.toLocaleTimeString(locale, {hour: 'numeric', minute: 'numeric', second: 'numeric'})
     const _uptime = process.uptime() * 1000;
     const uptime = clockString(_uptime);
     const user = global.db.data.users[m.sender];
@@ -23,6 +24,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `> ⓘ ¡Hola!, ${taguser}
 > ${week}, ${date}
+> ${time}
 *˚₊·˚₊· ͟͟͞͞➳❥ _Shadow Bot-SX_*
 *☆═━┈◈ ╰ 1.4.0 SB ╯ ◈┈━═☆*
 *│* 
@@ -33,25 +35,25 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *⎔ _Uptime:_* _${uptime}_
 *⎔ _Versión:_* _1.4.0_
 
-*⎔ _Nivel:_*
-*⎔ _Experiencia:_*
-*⎔ _Rango:_*
-*⎔ _Diamantes:_*
-*⎔ _ShadowCoins:_*
-*⎔ _Tokens:_*
-*⎔ _Premium:_*
+*⎔ _Nivel:_* _${level}_
+*⎔ _Experiencia:_* _${exp}_
+*⎔ _Rango:_* _${role}_
+*⎔ _Diamantes:_* _${limit}_
+*⎔ _ShadowCoins:_* _${money}_
+*⎔ _Tokens:_* _${joincount}_
+*⎔ _Premium:_* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ㅤ· · ────── ·•· ────── · · 
 𝙎𝙝𝙖𝙙𝙤𝙬 𝘽𝙤𝙩-𝙎𝙓 : 𝙐𝙨𝙭𝙧 𝘾𝙧𝙭𝙭𝙨 🥀
 - Para el menú completo usa *.allmenu*
 ㅤ· · ────── ·•· ────── · · 
 *╭┄⊰ =͟͟͞͞ LISTA DE MENÚS*
-*│* ও _.allmenu_
-*│* ও _.menuaudios_
-*│* ও _.menuanimes_
-*│* ও _.menu18_
-*│* ও _.menuff_
-*│* ও _.menurec_
-*│* ও _.menuayd_
+*│* დ _.allmenu_
+*│* დ _.menuaudios_
+*│* დ _.menuanimes_
+*│* დ _.menu18_
+*│* დ _.menuff_
+*│* დ _.menurec_
+*│* დ _.menuayd_
 *╰─────────────────┄⊰*`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
