@@ -5,17 +5,10 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
   try {
     const pp = imagen11;
-    // let vn = './media/menu.mp3'
     const d = new Date(new Date + 3600000);
     const locale = 'es';
-    const week = d.toLocaleDateString(locale, {weekday: 'long'});
     const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 'numeric'});
-    const _uptime = process.uptime() * 1000;
-    const uptime = clockString(_uptime);
     const user = global.db.data.users[m.sender];
-    const {money, joincount} = global.db.data.users[m.sender];
-    const {exp, limit, level, role} = global.db.data.users[m.sender];
-    const rtotalreg = Object.values(global.db.data.users).filter((user) => user.registered == true).length;
     const more = String.fromCharCode(8206);
     const readMore = more.repeat(850);
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
@@ -28,34 +21,34 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* 
 *╰ ˚₊·˚₊· ͟͟͞͞➳❥ _By Cristian_*
 *⊰᯽⊱┈──╌•|* ⊱✿⊰ *|•╌──┈⊰᯽⊱*
-*╭┄⊰* *MENÚ FREE FIRE*
-*│* _.fem4_
-*│* _.fem6_
-*│* _.feminterna4_
-*│* _.feminterna6_
-*│* _.masc4_
-*│* _.masc6_
-*│* _.mascinterna4_
-*│* _.mascinterna6_
-*│* _.mixto4_
-*│* _.mixto6_
-*│* _.mixtointerna4_
-*│* _.mixtointerna6_
-*│* _.lista4_
-*│* _.apos_
-*│* _.mapa_
-*│* _.ficha_
-*│* _.nexterra_
-*│* _.bermuda_
-*│* _.kalahari_
-*│* _.alpes_
-*│* _.agendasemanal_
-*│* _.buscarvsmasc_
-*│* _.vsmasc_
-*│* _.buscarvsfem_
-*│* _.vsfem_
-*│* _.buscarvsmixto_
-*│* _.vsmixto_
+*╭┄⊰* *=͟͟͞͞MENÚ FREE FIRE*
+*│* დ _.fem4_
+*│* დ _.fem6_
+*│* დ _.feminterna4_
+*│* დ _.feminterna6_
+*│* დ _.masc4_
+*│* დ _.masc6_
+*│* დ _.mascinterna4_
+*│* დ _.mascinterna6_
+*│* დ _.mixto4_
+*│* დ _.mixto6_
+*│* დ _.mixtointerna4_
+*│* დ _.mixtointerna6_
+*│* დ _.lista4_
+*│* დ _.apos_
+*│* დ _.mapa_
+*│* დ _.ficha_
+*│* დ _.nexterra_
+*│* დ _.bermuda_
+*│* დ _.kalahari_
+*│* დ _.alpes_
+*│* დ _.agendasemanal_
+*│* დ _.buscarvsmasc_
+*│* დ _.vsmasc_
+*│* დ _.buscarvsfem_
+*│* დ _.vsfem_
+*│* დ _.buscarvsmixto_
+*│* დ _.vsmixto_
 *╰─────────────────┄⊰*`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
