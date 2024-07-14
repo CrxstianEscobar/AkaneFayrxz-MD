@@ -22,15 +22,15 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* 
 *╰ ˚₊·˚₊· ͟͟͞͞➳❥ _By Cristian_*
 *⊰᯽⊱┈──╌•|* ⊱✿⊰ *|•╌──┈⊰᯽⊱*
-*╭┄⊰* *MENÚ DE RECURSOS*
-*│* _.spamapk_
-*│* _.spamcomu_
-*│* _.spam2_
-*│* _.recursosdzn_
-*│* _.drivesdzn_
-*│* _.dzn_
-*│* _.apkedits_
-*│* _.drivedits_
+*╭┄⊰ =͟͟͞͞MENÚ DE RECURSOS*
+*│* დ _.spamapk_
+*│* დ _.spamcomu_
+*│* დ _.spam2_
+*│* დ _.recursosdzn_
+*│* დ _.drivesdzn_
+*│* დ _.dzn_
+*│* დ _.apkedits_
+*│* დ _.drivedits_
 *╰─────────────────┄⊰*`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
