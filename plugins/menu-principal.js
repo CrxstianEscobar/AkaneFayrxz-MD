@@ -10,7 +10,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const locale = 'es';
     const week = d.toLocaleDateString(locale, {weekday: 'long'});
     const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 'numeric'});
-    let opciones = { timeZone: "America/Lima", hour12: false };
+    let opciones = { timeZone: "America/Lima", hour12: true };
     let hours = d.toLocaleTimeString(locale, opciones).split(':')[0];
     let saludo;
 
@@ -76,7 +76,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `> ⓘ ¡Hola!, ${taguser}
+    const str = `> 👋🏻 ¡Hola!, ${taguser}
 > ${saludo}
 > ${week}, ${date}
 > ${d.toLocaleTimeString(locale, opciones)}
