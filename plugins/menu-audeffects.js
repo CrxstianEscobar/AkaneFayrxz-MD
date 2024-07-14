@@ -49,7 +49,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     conn.reply(m.chat,'╰⊱❌⊱ *_ERROR_* ⊱❌⊱╮\n\n*_EL MENÚ ESTÁ FALLANDO INTENTE DE NUEVO MÁS TARDE_*', m);
   }
 };
-handler.command = /^(audioefectos|audefectos|menuadefectos|audeffects|menuefeaud|menuaudeffects)$/i;
+handler.command = /^(audioeffects|audeffects)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
