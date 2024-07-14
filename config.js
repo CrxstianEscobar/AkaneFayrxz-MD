@@ -42,6 +42,7 @@ global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
 global.imagen4 = fs.readFileSync('./Menu.png');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6 = fs.readFileSync('./Menu3.png');
+global.imagen17 = fs.readFileSync('./Menumenu.jpg');
 global.imagen7 = fs.readFileSync('./src/menu_pt.png');
 global.imagen8 = fs.readFileSync('./src/menu_fr.png')
 global.imagen9 = fs.readFileSync('./src/menu_en.png')
@@ -52,7 +53,6 @@ global.imagen13 = fs.readFileSync('./src/audefcts.jpg')
 global.imagen14 = fs.readFileSync('./src/logoefcts.jpg')
 global.imagen15 = fs.readFileSync('./src/menuaudios.jpg')
 global.imagen16 = fs.readFileSync('./src/menuayd.jpg')
-global.imagen17 = fs.readFileSync('./Menumenu.jpg')
 global.imagen18 = fs.readFileSync('./src/menurec.jpg')
 global.imagen19 = fs.readFileSync('./src/opcnadm.jpg')
 
