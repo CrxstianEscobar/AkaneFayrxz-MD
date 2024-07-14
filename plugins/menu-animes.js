@@ -9,72 +9,63 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
   try {
     const pp = imagen2;
-    // let vn = './media/menu.mp3'
     const d = new Date(new Date + 3600000);
     const locale = 'es';
-    const week = d.toLocaleDateString(locale, {weekday: 'long'});
     const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 'numeric'});
-    const _uptime = process.uptime() * 1000;
-    const uptime = clockString(_uptime);
     const user = global.db.data.users[m.sender];
-    const {money, joincount} = global.db.data.users[m.sender];
-    const {exp, limit, level, role} = global.db.data.users[m.sender];
-    const rtotalreg = Object.values(global.db.data.users).filter((user) => user.registered == true).length;
     const more = String.fromCharCode(8206);
     const readMore = more.repeat(850);
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
-║    ◉— *𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭* —◉
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ ${tradutor.texto1[1]}, ${taguser}*
-╰═══╡✯✯✯✯✯✯✯✯✯╞═══╯
-
-┏━━━━━━━━━━━━━━━━┓
-┃ *< ${tradutor.texto1[0]} />*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 🧿 _${usedPrefix}lolivid_
-┣ ඬ⃟ 🧿 _${usedPrefix}loli_
-┣ ඬ⃟ 🧿 _${usedPrefix}ppcouple_
-┣ ඬ⃟ 🧿 _${usedPrefix}neko_
-┣ ඬ⃟ 🧿 _${usedPrefix}waifu_
-┣ ඬ⃟ 🧿 _${usedPrefix}akira_
-┣ ඬ⃟ 🧿 _${usedPrefix}akiyama_
-┣ ඬ⃟ 🧿 _${usedPrefix}anna_
-┣ ඬ⃟ 🧿 _${usedPrefix}asuna_
-┣ ඬ⃟ 🧿 _${usedPrefix}ayuzawa_
-┣ ඬ⃟ 🧿 _${usedPrefix}boruto_
-┣ ඬ⃟ 🧿 _${usedPrefix}chiho_
-┣ ඬ⃟ 🧿 _${usedPrefix}chitoge_
-┣ ඬ⃟ 🧿 _${usedPrefix}deidara_
-┣ ඬ⃟ 🧿 _${usedPrefix}erza_
-┣ ඬ⃟ 🧿 _${usedPrefix}elaina_
-┣ ඬ⃟ 🧿 _${usedPrefix}eba_
-┣ ඬ⃟ 🧿 _${usedPrefix}emilia_
-┣ ඬ⃟ 🧿 _${usedPrefix}hestia_
-┣ ඬ⃟ 🧿 _${usedPrefix}hinata_
-┣ ඬ⃟ 🧿 _${usedPrefix}inori_
-┣ ඬ⃟ 🧿 _${usedPrefix}isuzu_
-┣ ඬ⃟ 🧿 _${usedPrefix}itachi_
-┣ ඬ⃟ 🧿 _${usedPrefix}itori_
-┣ ඬ⃟ 🧿 _${usedPrefix}kaga_
-┣ ඬ⃟ 🧿 _${usedPrefix}kagura_
-┣ ඬ⃟ 🧿 _${usedPrefix}kaori_
-┣ ඬ⃟ 🧿 _${usedPrefix}keneki_
-┣ ඬ⃟ 🧿 _${usedPrefix}kotori_
-┣ ඬ⃟ 🧿 _${usedPrefix}kurumi_
-┣ ඬ⃟ 🧿 _${usedPrefix}madara_
-┣ ඬ⃟ 🧿 _${usedPrefix}mikasa_
-┣ ඬ⃟ 🧿 _${usedPrefix}miku_
-┣ ඬ⃟ 🧿 _${usedPrefix}minato_
-┣ ඬ⃟ 🧿 _${usedPrefix}naruto_
-┣ ඬ⃟ 🧿 _${usedPrefix}nezuko_
-┣ ඬ⃟ 🧿 _${usedPrefix}sagiri_
-┣ ඬ⃟ 🧿 _${usedPrefix}sasuke_
-┣ ඬ⃟ 🧿 _${usedPrefix}sakura_
-┣ ඬ⃟ 🧿 _${usedPrefix}cosplay_
-┗━━━━━━━━━━━━━━━━┛`.trim();
+    const str = `> ⓘ ¡Hola!, ${taguser}
+> ${date}
+*˚₊·˚₊· ͟͟͞͞➳❥ _Shadow Bot-SX_*
+*☆═━┈◈ ╰ 1.4.0 SB ╯ ◈┈━═☆*
+*│* 
+*╰ ˚₊·˚₊· ͟͟͞͞➳❥ _By Cristian_*
+*⊰᯽⊱┈──╌•|* ⊱✿⊰ *|•╌──┈⊰᯽⊱*
+*╭┄⊰ MENÚ ANIMES*
+*│* დ _.lolivid_
+*│* დ _.loli_
+*│* დ _.ppcouple_
+*│* დ _.neko_
+*│* დ _.waifu_
+*│* დ _.akira_
+*│* დ _.akiyama_
+*│* დ _.anna_
+*│* დ _.asuna_
+*│* დ _.ayuzawa_
+*│* დ _.boruto_
+*│* დ _.chiho_
+*│* დ _.chitoge_
+*│* დ _.deidara_
+*│* დ _.erza_
+*│* დ _.elaina_
+*│* დ _.eba_
+*│* დ _.emilia_
+*│* დ _.hestia_
+*│* დ _.hinata_
+*│* დ _.inori_
+*│* დ _.isuzu_
+*│* დ _.itachi_
+*│* დ _.itori_
+*│* დ _.kaga_
+*│* დ _.kagura_
+*│* დ _.kaori_
+*│* დ _.keneki_
+*│* დ _.kotori_
+*│* დ _.kurumi_
+*│* დ _.madara_
+*│* დ _.mikasa_
+*│* დ _.miku_
+*│* დ _.minato_
+*│* დ _.naruto_
+*│* დ _.nezuko_
+*│* დ _.sagiri_
+*│* დ _.sasuke_
+*│* დ _.cosplay_
+*╰─────────────────┄⊰*`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
