@@ -50,6 +50,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _.allmenu_
 *│* დ _.menuaudios_
 *│* დ _.menuanimes_
+*│* დ _.audeffects_
+*│* დ _.logoeffects_
+*│* დ _.opcionesprop_
 *│* დ _.menu18_
 *│* დ _.menuff_
 *│* დ _.menurec_
