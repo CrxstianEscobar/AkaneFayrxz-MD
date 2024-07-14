@@ -54,6 +54,7 @@ global.imagen14 = fs.readFileSync('./src/logoefcts.jpg')
 global.imagen15 = fs.readFileSync('./src/menuaudios.jpg')
 global.imagen16 = fs.readFileSync('./src/menuayd.jpg')
 global.imagen18 = fs.readFileSync('./src/menurec.jpg')
+global.imagen19 = fs.readFileSync('./src/opcnadm.jpg')
 
 global.mods = [];
 
