@@ -10,7 +10,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const locale = 'es';
     const week = d.toLocaleDateString(locale, {weekday: 'long'});
     const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 'numeric'});
-    let opciones = { timeZone: "America/Lima", hour12: true };
+    let opciones = { timeZone: "America/Lima", hour12: false };
     let hours = d.toLocaleTimeString(locale, opciones).split(':')[0];
     let saludo;
 
