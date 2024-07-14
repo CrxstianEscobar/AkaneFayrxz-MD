@@ -25,4 +25,4 @@ global.fem4 = `ㅤㅤ *_VS FEM 4VS4_*
 🌸 • 
 🌸 • 
  
-_Donador(a) de sala:_`;
+_Donadora de sala:_`;
