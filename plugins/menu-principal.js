@@ -10,7 +10,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const locale = 'es';
     const week = d.toLocaleDateString(locale, {weekday: 'long'});
     const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 'numeric'});
-    const time = moment().time('America/Lima').format('DD/MM HH:mm');
+    const handler = async (m, {conn}) => {
+      const tzPE = moment().tz('America/Lima').format('DD/MM HH:mm')};
     //const time = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', hour12: true});
     //const time = d.toLocaleTimeString(locale, {hour: 'numeric', minute: 'numeric', second: 'numeric'})
     const _uptime = process.uptime() * 1000;
@@ -26,7 +27,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `> ⓘ ¡Hola!, ${taguser}
 > ${week}, ${date}
-> ${time}
+> ${tzPE}
 *˚₊·˚₊· ͟͟͞͞➳❥ _Shadow Bot-SX_*
 *☆═━┈◈ ╰ 1.4.0 SB ╯ ◈┈━═☆*
 *│* 
