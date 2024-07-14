@@ -77,7 +77,7 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `${tradutor.texto1[0]} 
     conn.reply(m.chat, tradutor.texto1[3], m);
   }
 };
-handler.command = /^(menuxxx|menu18|menuporno|pornomenu)$/i;
+handler.command = /^(menuxxx|menu18|menuhorny|hornymenu|menuporno|pornomenu)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
