@@ -10,8 +10,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const tradutor = _translate.plugins.menu_audios
 
   try {
-    const pp = imagen4;
-    const img = './Menu2.jpg';
+    const pp = imagen15;
     const d = new Date(new Date + 3600000);
     const locale = 'es';
     const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 'numeric'});
