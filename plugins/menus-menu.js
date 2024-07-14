@@ -7,6 +7,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const d = new Date(new Date + 3600000);
     const locale = 'es';
     const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 'numeric'});
+    const time = d.toLocaleTimeString(locale, {hour: 'numeric',bminute: 'numeric', second: 'numeric'})
     const user = global.db.data.users[m.sender];
     const more = String.fromCharCode(8206);
     const readMore = more.repeat(850);
@@ -20,7 +21,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* 
 *╰ ˚₊·˚₊· ͟͟͞͞➳❥ _By Cristian_*
 *⊰᯽⊱┈──╌•|* ⊱✿⊰ *|•╌──┈⊰᯽⊱*
-*╭┄⊰ =͟͟͞͞INFORMACIÓN*
+*╭┄⊰ =͟͟͞͞ INFORMACIÓN*
 *│* დ _.grupos_
 *│* დ _.estado_
 *│* დ _.infobot_
@@ -34,7 +35,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _bot (sin prefijo)_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞SUB BOTS*
+*╭┄⊰ =͟͟͞͞ SUB BOTS*
 *│* დ _.serbot --code_
 *│* დ _.serbot_
 *│* დ _.deletebot_
@@ -43,7 +44,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _.bots_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞DESCARGAS*
+*╭┄⊰ =͟͟͞͞ DESCARGAS*
 *│* დ _.play *txt*_
 *│* დ _.play2 *txt*_
 *│* დ _.play.1 *txt*_
@@ -78,7 +79,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _.xvideosdl *url*_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞BUSCADORES*
+*╭┄⊰ =͟͟͞͞ BUSCADORES*
 *│* დ _.githubsearch *txt*_
 *│* დ _.pelisplus *txt*_
 *│* დ _.modapk *txt*_
@@ -93,7 +94,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _.playstore *txt*_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞CONVERTIDORES*
+*╭┄⊰ =͟͟͞͞ CONVERTIDORES*
 *│* დ _.toanime *img*_
 *│* დ _.togifaud *video*_
 *│* დ _.tomp3 *video*_
@@ -106,7 +107,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _.tourl *video / img / audio*_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞HERRAMIENTAS*
+*╭┄⊰ =͟͟͞͞ HERRAMIENTAS*
 *│* დ _.inspect *wagc_url*_
 *│* დ _.chatgpt *txt*_
 *│* დ _.delchatgpt_
@@ -137,7 +138,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _.readviewonce *img / video*_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞GRUPOS*
+*╭┄⊰ =͟͟͞͞ GRUPOS*
 *│* დ _.add *num*_
 *│* დ _.kick *@tag*_
 *│* დ _.kick2 *@tag*_
@@ -163,7 +164,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _admins *txt* (sin prefijo)_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞JUEGOS*
+*╭┄⊰ =͟͟͞͞ JUEGOS*
 *│* დ _.mates_
 *│* დ _.fake *txt @tag*_
 *│* დ _.ppt_
@@ -201,7 +202,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _.glx_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞STICKERS*
+*╭┄⊰ =͟͟͞͞ STICKERS*
 *│* დ _.s *img / video / url*_
 *│* დ _.s2 *img / video / url*_
 *│* დ _.emojimix *emoji1 emoji2*_
@@ -226,7 +227,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _.stickerfilter *efecto img*_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞ECONOMIA*
+*╭┄⊰ =͟͟͞͞ ECONOMIA*
 *│* დ _.adventure_
 *│* დ _.cazar_
 *│* დ _.cofre_
@@ -249,20 +250,20 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _.unreg *sn*_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞CHAT ANÓNIMO*
+*╭┄⊰ =͟͟͞͞ CHAT ANÓNIMO*
 *│* დ _.start_
 *│* დ _.next_
 *│* დ _.leave_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞FRASES & TEXTOS*
+*╭┄⊰ =͟͟͞͞ FRASES & TEXTOS*
 *│* დ _.piropo_
 *│* დ _.consejo_
 *│* დ _.fraseromantica_
 *│* დ _.historiaromantica_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞ALEATORIO*
+*╭┄⊰ =͟͟͞͞ ALEATORIO*
 *│* დ _.kpop_
 *│* დ _.messi_
 *│* დ _.cristianoronaldo_
