@@ -7,7 +7,7 @@ handler.admin = true
 handler.group = true
 handler.botAdmin = true
 
-global.fem6 = `ㅤㅤ *_VS FEM VV2 4VS4_*
+global.fem6 = `ㅤㅤ *_VS FEM 4VS4_*
 
 ෆ Hora: (  )🇵🇪 (  )🇦🇷
 ෆ Fecha: 
