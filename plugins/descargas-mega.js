@@ -3,14 +3,14 @@ import path from "path";
 
 let handler = async (m, { conn, args, usedPrefix, text, command }) => {
     try {
-        if (!text) return m.reply(`𝙄 𝙉 𝙁 𝙊 𝙍 𝙈 𝘼 𝘾 𝙄 𝙊 𝙉\n\n𝙁𝙤𝙧𝙢𝙖𝙩𝙤 𝙞𝙣𝙘𝙤𝙧𝙧𝙚𝙘𝙩𝙤\n\n» 𝙐𝙨𝙚 𝙚𝙡 𝙘𝙤𝙢𝙖𝙣𝙙𝙤:\n𝘌𝘫𝘦𝘮𝘱𝘭𝘰: .𝘮𝘦𝘨𝘢 <𝘭𝘪𝘯𝘬>`);
+        if (!text) return m.reply(`╰⊱❗️⊱ *_ACCIÓN MAL USADA_* ⊱❗️⊱╮\n\n*_AGREGE EL LINK DE META A DESCARGAR_*\n*_EJEMPLO_*: .${usedPrefix + command} https://mega.nz/file/ZIND1aSA#36lhq4zOR-SM0My90c2TwIs3S9eLq-bDZT5_y0zHCQM`);
 
         const file = File.fromURL(text);
         await file.loadAttributes();
 
         if (file.size >= 300000000) return m.reply('Error: El archivo es grande (Maximo tamaño: 300MB)');
 
-        const downloadingMessage = `𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤...`;
+        const downloadingMessage = `╰⊱💚⊱ _*ÉXITO / SUCCESS*_ ⊱💚⊱╮\n\n*_SE ESTÁ ENVIANDO SU ARCHIVO..._*`;
         m.reply(downloadingMessage);
 
         const caption = `𝘿𝙚𝙨𝙘𝙖𝙧𝙜𝙖 𝙚𝙭𝙞𝙩𝙤𝙨𝙖....\n\n» 𝙉𝙤𝙢𝙗𝙧𝙚: ${file.name}\n» 𝙋𝙚𝙨𝙤: ${formatBytes(file.size)}\n» 𝙁𝙚𝙘𝙝𝙖: ${fecha}`;
