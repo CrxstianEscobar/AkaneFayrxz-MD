@@ -3,7 +3,7 @@ import path from "path";
 
 let handler = async (m, { conn, args, usedPrefix, text, command }) => {
     try {
-        if (!text) return m.reply(`╰⊱❗️⊱ *_ACCIÓN MAL USADA_* ⊱❗️⊱╮\n\n*_AGREGE EL LINK DE META A DESCARGAR_*\n*_EJEMPLO_*: .${usedPrefix + command} https://mega.nz/file/ZIND1aSA#36lhq4zOR-SM0My90c2TwIs3S9eLq-bDZT5_y0zHCQM`);
+        if (!text) return m.reply(`╰⊱❗️⊱ *_ACCIÓN MAL USADA_* ⊱❗️⊱╮\n\n*_AGREGE EL LINK DE META A DESCARGAR_*\n*_EJEMPLO_*:\n${usedPrefix + command} https://mega.nz/file/ZIND1aSA#36lhq4zOR-SM0My90c2TwIs3S9eLq-bDZT5_y0zHCQM`);
 
         const file = File.fromURL(text);
         await file.loadAttributes();
