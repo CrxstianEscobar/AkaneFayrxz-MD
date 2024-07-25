@@ -2849,8 +2849,7 @@
         },
         "menu_anime": {
             "texto1": [
-                "MENU-ANIME ",
-                "*𝗛ola",
+                "`MENÚ ANIMES`",
                 "*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝚈 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙴𝙽𝚅𝙸𝙰𝚁𝙻𝙾, 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*"
             ]
         },
@@ -2896,8 +2895,7 @@
         "menu_labiblia": {
             "texto1": [
                 "*[❗] Los comandos +18 están desactivados en este grupo, si es admin y desea activarlos use",
-                "*¡Hola!",
-                "*< MENU+18 />*",
+                "`MENÚ +18`",
                 "*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝚈 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙴𝙽𝚅𝙸𝙰𝚁𝙻𝙾, 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*"
             ]
         },
@@ -2924,6 +2922,11 @@
                 "`EFECTOS & LOGOS`",
                 "`EFECTOS DE AUDIO`",
                 "`ALEATORIO`"
+            ]
+        },
+        "menu_principal": {
+            "texto1": [
+                "`LISTA DE MENÚS`"
             ]
         },
         "mipilot_serbot_broadcast": {
