@@ -2772,12 +2772,12 @@
             "texto1": [
                 "_*< INFO - REPOSITORIO />*_",
                 "▢ *Nombre:*",
-                "TheMystic-Bot-MD",
+                "Shadow Bot-SX",
                 "▢ *Visitantes:*",
                 "▢ *Tamaño:*",
                 "▢ *Actualización:*",
                 "▢ *URL:*",
-                "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
+                "https://github.com/CrxstianEscobar/ShadowBot-SX",
                 "Forks ·",
                 "Stars ·",
                 "Issues\n\n",
@@ -2903,7 +2903,27 @@
         },
         "menu_menu": {
             "texto1": [
-                "💚💚"
+                "`INFORMACIÓN`",
+                "`SUB BOT`",
+                "`AJUSTES`",
+                "`FREE FIRE`",
+                "`RECURSOS`",
+                "`DESCARGAS`",
+                "`BUSCADORES`",
+                "`CONVERTIDORES`",
+                "`IA`",
+                "`HERRAMIENTAS`",
+                "`GRUPOS`",
+                "`CONTENIDO +18`",
+                "`JUEGOS`",
+                "`STICKERS`",
+                "`AUDIOS`",
+                "`ECONOMÍA`",
+                "`CHAT ANÓNIMO`",
+                "`FRASES & TEXTOS`",
+                "`EFECTOS & LOGOS`",
+                "`EFECTOS DE AUDIO`",
+                "`ALEATORIO`"
             ]
         },
         "mipilot_serbot_broadcast": {
