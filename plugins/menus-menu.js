@@ -25,7 +25,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* 
 *╰ ˚₊·˚₊· ͟͟͞͞➳❥ _By Cristian_*
 *⊰᯽⊱┈──╌•|* ⊱✿⊰ *|•╌──┈⊰᯽⊱*
-*╭┄⊰ =͟͟͞͞ INFORMACIÓN*
+*╭┄⊰* ${tradutor.texto1[0]}
 *│* დ _.grupos_
 *│* დ _.estado_
 *│* დ _.infobot_
@@ -39,7 +39,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _bot (sin prefijo)_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞ SUB BOTS*
+*╭┄⊰* ${tradutor.texto1[1]}
 *│* დ _.serbot --code_
 *│* დ _.serbot_
 *│* დ _.deletebot_
@@ -48,7 +48,53 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _.bots_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞ DESCARGAS*
+*╭┄⊰* ${tradutor.texto1[2]}
+*│* დ _.enable *(Activar)*_
+*│* დ _.disable *(Desactivar)*_
+*╰─────────────────┄⊰*
+
+*╭┄⊰* ${tradutor.texto1[3]}
+*│* დ _.fem4_
+*│* დ _.fem6_
+*│* დ _.feminterna4_
+*│* დ _.feminterna6_
+*│* დ _.masc4_
+*│* დ _.masc6_
+*│* დ _.mascinterna4_
+*│* დ _.mascinterna6_
+*│* დ _.mixto4_
+*│* დ _.mixto6_
+*│* დ _.mixtointerna4_
+*│* დ _.mixtointerna6_
+*│* დ _.lista4_
+*│* დ _.apos_
+*│* დ _.mapa_
+*│* დ _.ficha_
+*│* დ _.nexterra_
+*│* დ _.bermuda_
+*│* დ _.kalahari_
+*│* დ _.alpes_
+*│* დ _.agendasemanal_
+*│* დ _.buscarvsmasc_
+*│* დ _.vsmasc_
+*│* დ _.buscarvsfem_
+*│* დ _.vsfem_
+*│* დ _.buscarvsmixto_
+*│* დ _.vsmixto_
+*╰─────────────────┄⊰*
+
+*╭┄⊰* ${tradutor.texto1[4]}
+*│* დ _.spamapk_
+*│* დ _.spamcomu_
+*│* დ _.spam2_
+*│* დ _.recursosdzn_
+*│* დ _.drivesdzn_
+*│* დ _.dzn_
+*│* დ _.apkedits_
+*│* დ _.drivedits_
+*╰─────────────────┄⊰*
+
+*╭┄⊰* ${tradutor.texto1[5]}
 *│* დ _.play *txt*_
 *│* დ _.play2 *txt*_
 *│* დ _.play.1 *txt*_
@@ -83,7 +129,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _.xvideosdl *url*_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞ BUSCADORES*
+*╭┄⊰* ${tradutor.texto1[6]}
 *│* დ _.githubsearch *txt*_
 *│* დ _.pelisplus *txt*_
 *│* დ _.modapk *txt*_
@@ -98,7 +144,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _.playstore *txt*_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞ CONVERTIDORES*
+*╭┄⊰* ${tradutor.texto1[7]}
 *│* დ _.toanime *img*_
 *│* დ _.togifaud *video*_
 *│* დ _.tomp3 *video*_
@@ -111,17 +157,24 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _.tourl *video / img / audio*_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞ HERRAMIENTAS*
-*│* დ _.inspect *wagc_url*_
-*│* დ _.chatgpt *txt*_
+*╭┄⊰* ${tradutor.texto1[8]}
+*│* დ _.simi *txt*_
+*│* დ _.ia *txt*_
 *│* დ _.delchatgpt_
-*│* დ _.gptvoz *txt*_
+*│* დ _.iavoz *txt*_
 *│* დ _.dalle *txt*_
+*│* დ _.gemini *txt*_
+*│* დ _.geminimg *img*_
+*│* დ _.calidadimg *img*_
+*│* დ _.hd *img*_
+*╰─────────────────┄⊰*
+
+*╭┄⊰* ${tradutor.texto1[9]}
+*│* დ _.inspect *wagc_url*_
 *│* დ _.traducir *txt*_
 *│* დ _.styletext *txt*_
 *│* დ _.img *txt*_
 *│* დ _.qrcode *txt*_
-*│* დ _.hd *img*_
 *│* დ _.readqr *img*_
 *│* დ _.ocr *img*_
 *│* დ _.acortar *url*_
@@ -142,7 +195,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _.readviewonce *img / video*_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞ GRUPOS*
+*╭┄⊰* ${tradutor.texto1[10]}
 *│* დ _.add *num*_
 *│* დ _.kick *@tag*_
 *│* დ _.kick2 *@tag*_
@@ -168,7 +221,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _admins *txt* (sin prefijo)_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞ JUEGOS*
+*╭┄⊰* ${tradutor.texto1[11]}
+*│* დ _.menu18_
+*╰─────────────────┄⊰*
+
+*╭┄⊰* ${tradutor.texto1[12]}
 *│* დ _.mates_
 *│* დ _.fake *txt @tag*_
 *│* დ _.ppt_
@@ -206,7 +263,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _.glx_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞ STICKERS*
+*╭┄⊰* ${tradutor.texto1[13]}
 *│* დ _.s *img / video / url*_
 *│* დ _.s2 *img / video / url*_
 *│* დ _.emojimix *emoji1 emoji2*_
@@ -231,7 +288,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _.stickerfilter *efecto img*_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞ ECONOMIA*
+*╭┄⊰* ${tradutor.texto1[14]}
+*│* დ _.menuaudios_
+*╰─────────────────┄⊰*
+
+*╭┄⊰* ${tradutor.texto1[15]}
 *│* დ _.adventure_
 *│* დ _.cazar_
 *│* დ _.cofre_
@@ -254,20 +315,49 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *│* დ _.unreg *sn*_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞ CHAT ANÓNIMO*
+*╭┄⊰* ${tradutor.texto1[16]}
 *│* დ _.start_
 *│* დ _.next_
 *│* დ _.leave_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞ FRASES & TEXTOS*
+*╭┄⊰* ${tradutor.texto1[17]}
 *│* დ _.piropo_
 *│* დ _.consejo_
 *│* დ _.fraseromantica_
 *│* დ _.historiaromantica_
 *╰─────────────────┄⊰*
 
-*╭┄⊰ =͟͟͞͞ ALEATORIO*
+*╭┄⊰* ${tradutor.texto1[18]}
+*│* დ _.logos *efecto txt*_
+*│* დ _.logochristmas *txt*_
+*│* დ _.logocorazon *txt*_
+*│* დ _.ytcomment *txt*_
+*│* დ _.hornycard *@tag*_
+*│* დ _.simpcard *@tag*_
+*│* დ _.lolice *@tag*_
+*│* დ _.itssostupid_
+*│* დ _.pixelear_
+*│* დ _.blur_
+*╰─────────────────┄⊰*
+
+*╭┄⊰* ${tradutor.texto1[19]}
+*│* ⓘ Responde a un audio.
+*│* დ _.bass_
+*│* დ _.blown_
+*│* დ _.deep_
+*│* დ _.earrape_
+*│* დ _.fast_
+*│* დ _.fat_
+*│* დ _.nightcore_
+*│* დ _.reverse_
+*│* დ _.robot_
+*│* დ _.slow_
+*│* დ _.smooth_
+*│* დ _.tupai_
+*╰─────────────────┄⊰*
+
+*╭┄⊰* ${tradutor.texto1[20]}
 *│* დ _.kpop_
 *│* დ _.messi_
 *│* დ _.cristianoronaldo_
