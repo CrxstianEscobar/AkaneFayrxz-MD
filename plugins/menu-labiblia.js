@@ -32,7 +32,7 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `${tradutor.texto1[0]} 
 *│* 
 *╰ ˚₊·˚₊· ͟͟͞͞➳❥ _By Cristian_*
 *⊰᯽⊱┈──╌•|* ⊱✿⊰ *|•╌──┈⊰᯽⊱*
-*╭┄⊰ =͟͟͞͞ MENÚ +18*
+*╭┄⊰* ${tradutor.texto1[]}
 *│* დ _.pack_
 *│* დ _.pack2_
 *│* დ _.pack3_
