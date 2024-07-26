@@ -4,6 +4,9 @@ import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
 
   try {
+    const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const tradutor = _translate.plugins.menu_principal
+    
     const pp = imagen17;
     const img = './Menumenu.jpg';
     const d = new Date(new Date + 3600000);
@@ -16,53 +19,53 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
     // Determina el saludo según la hora del día en Lima, Perú
     if (hours == 0) {
-      saludo = '🌚 ¡Vaya, aún despierto! ¿Eres un búho nocturno o qué?';
+      saludo = '🌒 ¡Vaya, aún despierto! ¿Eres un búho nocturno o qué?';
     } else if (hours == 1) {
-      saludo = '🌚 ¿Ya es la 1 AM? ¡Aún no es hora de dormir!';
+      saludo = '🌒 Ya es la 1 AM ¿Aún no es hora de dormir?';
     } else if (hours == 2) {
-      saludo = '🌚 Las 2 de la mañana, ¡un verdadero noctámbulo!';
+      saludo = '🌒 Las 2 de la mañana, ¡Un verdadero noctámbulo!';
     } else if (hours == 3) {
-      saludo = '🌚 Son las 3 AM, ¿seguro que no deberías dormir?';
+      saludo = '🌒 Son las 3 AM, ¿Seguro que no deberías dormir?';
     } else if (hours == 4) {
-      saludo = '🌚 Son las 4 AM, ¡la noche aún es joven!';
+      saludo = '🌒 Son las 4 AM, ¡La noche aún es joven!';
     } else if (hours == 5) {
-      saludo = '🌅 Buenos días, ¡ya casi amanece!';
+      saludo = '🌉 Buenos días, ¡Ya casi amanece!';
     } else if (hours == 6) {
-      saludo = '🌅 Son las 6 AM, ¡hora de despertar!';
+      saludo = '🌄 Son las 6 AM, ¡Hora de despertar!';
     } else if (hours == 7) {
-      saludo = '🌅 Son las 7 AM, ¡el sol ya está arriba!';
+      saludo = '☀️ Son las 7 AM, ¡El sol ya está arriba, hora de desayunar!';
     } else if (hours == 8) {
-      saludo = '🌞 Buenos días, ¡a empezar el día con energía!';
+      saludo = '☀️ Buenos días, ¡Ah empezar el día con energía!';
     } else if (hours == 9) {
-      saludo = '🌞 Son las 9 AM, ¡espero que ya estés despierto!';
+      saludo = '☀️ Son las 9 AM, ¡Espero que ya estés despierto!';
     } else if (hours == 10) {
-      saludo = '🌞 Las 10 de la mañana, ¡un buen momento para ser productivo!';
+      saludo = '☀️ Las 10 de la mañana, ¡Un buen momento para ser productivo!';
     } else if (hours == 11) {
-      saludo = '🌞 Son las 11 AM, ¡casi es hora del almuerzo!';
+      saludo = '☀️ Son las 11 AM, ¡Casi es hora del almuerzo!';
     } else if (hours == 12) {
-      saludo = '🌤 Buenas tardes, ¡hora de almorzar!';
+      saludo = '☀️ Buenas tardes, ¡Hora de almorzar!';
     } else if (hours == 13) {
-      saludo = '🌤 Son las 1 PM, ¡espero que hayas disfrutado tu almuerzo!';
+      saludo = '☀️ Son la 1 PM, ¡Espero que hayas disfrutado tu almuerzo!';
     } else if (hours == 14) {
-      saludo = '🌤 Las 2 de la tarde, ¡la recta final del día!';
+      saludo = '☀️ Las 2 de la tarde, ¡La recta final del día!';
     } else if (hours == 15) {
-      saludo = '🌤 Son las 3 PM, ¡mantén el ritmo!';
+      saludo = '🌤 Son las 3 PM, ¡Mantén el ritmo!';
     } else if (hours == 16) {
-      saludo = '🌤 Son las 4 PM, ¡ya casi es el fin del día!';
+      saludo = '🌤 Son las 4 PM, ¡Ya casi es el fin del día!';
     } else if (hours == 17) {
-      saludo = '🌇 Buenas tardes, ¡el día se va acabando!';
+      saludo = '🌇 Buenas tardes, ¡El día se va acabando!';
     } else if (hours == 18) {
-      saludo = '🌆 Son las 6 PM, ¡es hora de relajarse un poco!';
+      saludo = '🌆 Son las 6 PM, ¡Es hora de relajarse un poco!';
     } else if (hours == 19) {
-      saludo = '🌆 Buenas noches, ¿hora de Netflix y relax?';
+      saludo = '🌃 Buenas noches, ¿Hora de Netflix y relax?';
     } else if (hours == 20) {
-      saludo = '🌆 Son las 8 PM, ¡un buen momento para relajarse!';
+      saludo = '🌃 Son las 8 PM, ¡Un buen momento para relajarse!';
     } else if (hours == 21) {
-      saludo = '🌆 Buenas noches, ¿preparado para el último sprint del día?';
+      saludo = '🌌 Buenas noches, ¿Preparado para el último sprint del día?';
     } else if (hours == 22) {
-      saludo = '🌙 Son las 10 PM, ¡hora de prepararse para dormir!';
+      saludo = '🌌 Son las 10 PM, ¡Hora de prepararse para dormir!';
     } else if (hours == 23) {
-      saludo = '🌙 Buenas noches, ¿no deberías estar durmiendo ya?';
+      saludo = '🌒 Buenas noches, ¿No deberías estar durmiendo ya?';
       }
     //const time = d.toLocaleString('es-PE', {hour: 'numeric', minute: 'numeric', hour12: true});
     const _uptime = process.uptime() * 1000;
@@ -79,7 +82,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const str = `> 👋🏻 ¡Hola!, ${taguser}
 > ${saludo}
 > ${week}, ${date}
-> ${d.toLocaleTimeString(locale, opciones)}
+> ${d.toLocaleTimeString(locale, opciones)}  | |  Perú - Lima
 *˚₊·˚₊· ͟͟͞͞➳❥ _Shadow Bot-SX_*
 *☆═━┈◈ ╰ 1.4.0 SB ╯ ◈┈━═☆*
 *│* 
@@ -101,17 +104,15 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 𝙎𝙝𝙖𝙙𝙤𝙬 𝘽𝙤𝙩-𝙎𝙓 : 𝙐𝙨𝙭𝙧 𝘾𝙧𝙭𝙭𝙨 🥀
 - Para el menú completo usa *.allmenu*
 ㅤ· · ────── ·•· ────── · · 
-*╭┄⊰ =͟͟͞͞ LISTA DE MENÚS*
-*│* დ _.allmenu_
-*│* დ _.menuaudios_
+*╭┄⊰* ${tradutor.texto1[0]}
 *│* დ _.menuanimes_
+*│* დ _.menuaudios_
+*│* დ _.menulogos_
+*│* დ _.menuowner_
 *│* დ _.audeffects_
-*│* დ _.logoeffects_
-*│* დ _.opcionesprop_
+*│* დ _.menurec_
 *│* დ _.menu18_
 *│* დ _.menuff_
-*│* დ _.menurec_
-*│* დ _.menuayd_
 *╰─────────────────┄⊰*`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
