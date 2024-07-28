@@ -12,7 +12,7 @@ global.confirmCode = ""
 
 global.owner = [
   ['51927238856', '👑 Cristian Escobar 👑', true],
-  ['51940617554', '💫 SB - Collaborator 2 💫', true],
+  ['15099774744', '💫 SB - Collaborator 2 💫', true],
   ['51996089079', '💫 SB - Collaborator 3 💫', true],
   ['5218442286089', '💫 SB - Collaborator 4 💫', true],
   ['50246028932', '💫 SB - Collaborator 5 💫', true],
