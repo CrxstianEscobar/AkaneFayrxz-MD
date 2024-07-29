@@ -557,29 +557,6 @@
             "texto5": "_*< DESCARGAS - PLAY V2 />*_\n\n*[ ℹ️ ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*",
             "texto6": "_*< DESCARGAS - PLAY V2 />*_\n\n*[ ℹ️ ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*"
         },
-        "descargas_play": {
-            "texto1": [
-                "_*< DESCARGAS - PLAY />*_\n\n*[ ℹ️ ] Hace falta el título o enlace del video de YouTube.*\n\n*[ 💡 ] Ejemplo:*",
-                "Good Feeling - Flo Rida_"
-            ],
-            "texto2": [
-                "_*< DESCARGAS - PLAY />*_\n\n▢ *Título:*",
-                "▢ *Publicado:*",
-                "▢ *Duración:*",
-                "▢ *Vistas:*",
-                "▢ *Autor:*",
-                "▢ *ID:*",
-                "▢ *Tipo:*",
-                "▢ *Enlace:*",
-                "▢ *Canal:*",
-                "*[ ℹ️ ] Se está enviando el",
-                "espere...*"
-            ],
-            "texto3": "*[ ℹ️ ] Descargue su audio en:*",
-            "texto4": "_*< DESCARGAS - PLAY />*_\n\n*[ ℹ️ ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*",
-            "texto5": "_*< DESCARGAS - PLAY />*_\n\n*[ ℹ️ ] Descargue su vídeo en:*",
-            "texto6": "_*< DESCARGAS - PLAY />*_\n\n*[ ℹ️ ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*"
-        },
         "descargas_spotify": {
             "texto1": "_*< DESCARGAS - SPOTIFY />*_\n\n*[ ℹ️ ] Hace falta el título de la canción de Spotify.*\n\n*[ 💡 ] Ejemplo:*",
             "texto2": [
