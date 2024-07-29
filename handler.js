@@ -1126,7 +1126,7 @@ export async function handler(chatUpdate) {
       if (chat) {
         if (!('language' in chat)) chat.language = 'es';
         if (!('isBanned' in chat)) chat.isBanned = false;
-        if (!('welcome' in chat)) chat.welcome = true;
+        if (!('welcome' in chat)) chat.welcome = false;
         if (!('detect' in chat)) chat.detect = true;
         if (!('detect2' in chat)) chat.detect2 = false;
         if (!('sWelcome' in chat)) chat.sWelcome = '';
@@ -1152,7 +1152,7 @@ export async function handler(chatUpdate) {
       } else {
         global.db.data.chats[m.chat] = {
           isBanned: false,
-          welcome: true,
+          welcome: false,
           detect: true,
           detect2: false,
           sWelcome: '',
@@ -1187,7 +1187,7 @@ export async function handler(chatUpdate) {
         if (!('restrict' in settings)) settings.restrict = false;
         if (!('antiCall' in settings)) settings.antiCall = false;
         if (!('antiPrivate' in settings)) settings.antiPrivate = false;
-        if (!('modejadibot' in settings)) settings.modejadibot = true;
+        if (!('modejadibot' in settings)) settings.modejadibot = false;
         if (!('antispam' in settings)) settings.antispam = false;
         if (!('audios_bot' in settings)) settings.audios_bot = true;
         if (!('modoia' in settings)) settings.modoia = false;
@@ -1199,7 +1199,7 @@ export async function handler(chatUpdate) {
           restrict: false,
           antiCall: false,
           antiPrivate: false,
-          modejadibot: true,
+          modejadibot: false,
           antispam: false,
           audios_bot: true,
           modoia: false
@@ -1710,8 +1710,8 @@ export async function callUpdate(callUpdate) {
         const callmsg = await mconn.conn.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? 'videollamadas' : 'llamadas'} no están permitidas, serás bloqueado.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, { mentions: [nk.from] });
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑;;;\nFN:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nORG:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nTITLE:\nitem1.TEL;waid=5219992095479:+521 999 209 5479\nitem1.X-ABLabel:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nEND:VCARD`;
-        await mconn.conn.sendMessage(nk.from, { contacts: { displayName: '𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑', contacts: [{ vcard }] } }, { quoted: callmsg });
+        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Cristian Escobar;;;\nFN: Cristian Escobar\nORG:Cristian Escobar\nTITLE:\nitem1.TEL;waid=51927238856:+51 927 238 856\nitem1.X-ABLabel:Cristian Escobar\nX-WA-BIZ-DESCRIPTION:🌙\nX-WA-BIZ-NAME:Cristian Escobar\nEND:VCARD`;
+        await mconn.conn.sendMessage(nk.from, { contacts: { displayName: 'Cristian Escobar', contacts: [{ vcard }] } }, { quoted: callmsg });
         await mconn.conn.updateBlockStatus(nk.from, 'block');
       }
     }
@@ -1728,7 +1728,7 @@ export async function deleteUpdate(message) {
 
   let d = new Date(new Date + 3600000)
   let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'numeric' })
-  let time = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })
+  let time = d.toLocaleString('es-PE', { hour: 'numeric', minute: 'numeric', hour12: true })
   try {
     const { fromMe, id, participant } = message
     if (fromMe) return
