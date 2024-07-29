@@ -7,9 +7,9 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let name = await conn.getName(who)
 let edtr = `@${m.sender.split`@`[0]}`
 
-let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:WhatsApp;ANGELITO 🍃\nNICKNAME:🐈‍⬛ Angel\nORG:ANGELITO 🐈‍⬛\nTITLE:soft\nitem1.TEL;waid=59897246324:+598 97 246 324\nitem1.X-ABLabel:📞 WhatsApp Owner\nitem2.URL:https://github.com/karim-off/GenesisBot-Pro1\nitem2.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET: agasistencia2@gmail.com\nitem3.X-ABLabel:💌 Correo soporte\nitem4.ADR:;;🇦🇷 Argentina;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel: Localización 🫧\nBDAY;value=date:🐈‍⬛ 09-12-2007\nEND:VCARD`
+let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:WhatsApp;Cristian Escobar\nNICKNAME:Cristian\nORG:Cristian Escobar\nTITLE:soft\nitem1.TEL;waid=51927238856:+51 927 238 856\nitem1.X-ABLabel:📞 WhatsApp Owner\nitem2.URL:https://github.com/CrxstianEscobar/ShadowBot-SX\nitem2.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET: centerglobalbots@gmail.com\nitem3.X-ABLabel:💌 Correo soporte\nitem4.ADR:;;🇵🇪 Perú;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel: Localización 🫧\nBDAY;value=date:🌙 09-12-2007\nEND:VCARD`
 const tag_own = await conn.sendMessage(m.chat, { contacts: { displayName: packname, contacts: [{ vcard }] }}, { quoted: fkontak })
-let caption = `*👋🏻 Hola ${edtr}, este es el contacto de mi creador 🐈‍⬛*`
+let caption = `*_👋🏻 Hola ${edtr}, este es el contacto de mi creador 🌙_*`
     await conn.reply(m.chat, caption, tag_own, { mentions: conn.parseMention(caption) })
 
 }
