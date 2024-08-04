@@ -28,8 +28,8 @@ global.owner = [
 global.suittag = ['5219993404349'];
 global.prems = ['51995386439'];
 
-global.packname = '𝙎𝙝𝙖𝙙𝙤𝙬 𝘽𝙤𝙩-𝙎𝙓';
-global.author = '𝙐𝙨𝙭𝙧 𝘾𝙧𝙭𝙭𝙨 🥀';
+global.packname = 'ㅤㅤㅤㅤ👑\nㅤ  𝐀𝐤𝐚𝐧𝐞 𝐅𝐚𝐲𝐫𝐱𝐳\nㅤㅤ      𝐁𝐨𝐭\n\n✯᭄ 𝑩𝒚 𝑪𝒓𝒙𝒔𝒕𝒊𝒂𝒏 \n｡･ﾟ♡ﾟ｡･ﾟ･𝑬𝒔𝒄𝒐𝒃𝒂𝒓\n\n-•°○ ⊹ ִ ᣞ 🌙  ֺ   ֢֢ ｡ﾟ･';
+global.author = '╭╼• =͟͟͞͞𝐒𝐮𝐩𝐞𝐫 𝐁𝐨𝐭 𝐀𝐅𝐁\n┃\n┃ » 𝖨𝗇𝗌𝗍𝖺𝗀𝗋𝖺𝗆\n┃ @usxr.crxxs\n┃\n┃ » 𝖦𝗂𝗍𝖧𝗎𝖻:\n┃ CrxstianEscobar\n┃\n╰───╼ • ◆ • ╾───╯';
 global.wm = '𝙎𝙝𝙖𝙙𝙤𝙬 𝘽𝙤𝙩-𝙎𝙓';
 global.titulowm = '𝙎𝙝𝙖𝙙𝙤𝙬 𝘽𝙤𝙩-𝙎𝙓';
 global.titulowm2 = `𝙎𝙝𝙖𝙙𝙤𝙬 𝘽𝙤𝙩-𝙎𝙓`
