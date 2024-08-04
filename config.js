@@ -30,10 +30,10 @@ global.prems = ['51995386439'];
 
 global.packname = 'ㅤㅤㅤㅤ👑\nㅤ  𝐀𝐤𝐚𝐧𝐞 𝐅𝐚𝐲𝐫𝐱𝐳\nㅤㅤ      𝐁𝐨𝐭\n\n✯᭄ 𝑩𝒚 𝑪𝒓𝒙𝒔𝒕𝒊𝒂𝒏 \n｡･ﾟ♡ﾟ｡･ﾟ･𝑬𝒔𝒄𝒐𝒃𝒂𝒓\n\n-•°○ ⊹ ִ ᣞ 🌙  ֺ   ֢֢ ｡ﾟ･';
 global.author = '╭╼• =͟͟͞͞𝐒𝐮𝐩𝐞𝐫 𝐁𝐨𝐭 𝐀𝐅𝐁\n┃\n┃ » 𝖨𝗇𝗌𝗍𝖺𝗀𝗋𝖺𝗆\n┃ @usxr.crxxs\n┃\n┃ » 𝖦𝗂𝗍𝖧𝗎𝖻:\n┃ CrxstianEscobar\n┃\n╰───╼ • ◆ • ╾───╯';
-global.wm = '𝙎𝙝𝙖𝙙𝙤𝙬 𝘽𝙤𝙩-𝙎𝙓';
-global.titulowm = '𝙎𝙝𝙖𝙙𝙤𝙬 𝘽𝙤𝙩-𝙎𝙓';
-global.titulowm2 = `𝙎𝙝𝙖𝙙𝙤𝙬 𝘽𝙤𝙩-𝙎𝙓`
-global.igfg = '𝙎𝙝𝙖𝙙𝙤𝙬 𝘽𝙤𝙩-𝙎𝙓';
+global.wm = '𝘼𝙠𝙖𝙣𝙚 𝙁𝙖𝙮𝙧𝙭𝙯-𝙈𝘿';
+global.titulowm = '𝘼𝙠𝙖𝙣𝙚 𝙁𝙖𝙮𝙧𝙭𝙯-𝙈𝘿';
+global.titulowm2 = `𝘼𝙠𝙖𝙣𝙚 𝙁𝙖𝙮𝙧𝙭𝙯-𝙈𝘿`
+global.igfg = '𝘼𝙠𝙖𝙣𝙚 𝙁𝙖𝙮𝙧𝙭𝙯-𝙈𝘿';
 global.wait = '*⏳ Cargando...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -67,15 +67,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('es-PE', {hour: 'numeric', minute: 'numeric', hour12: true});
 // · · ──────── ·•· ──────── · ·
-global.wm2 = `${dia} ${fecha}\n𝙎𝙝𝙖𝙙𝙤𝙬 𝘽𝙤𝙩-𝙎𝙓`;
-global.gt = '𝙎𝙝𝙖𝙙𝙤𝙬 𝘽𝙤𝙩-𝙎𝙓';
-global.mysticbot = '𝙎𝙝𝙖𝙙𝙤𝙬 𝘽𝙤𝙩-𝙎𝙓';
-global.md = 'https://github.com/CrxstianEscobar/ShadowBot-SX';
-global.mysticbot = 'https://github.com/CrxstianEscobar/ShadowBot-SX';
-global.waitt = '*[ ⏳ ] Cargando...*';
-global.waittt = '*[ ⏳ ] Cargando...*';
-global.waitttt = '*[ ⏳ ] Cargando...*';
-global.nomorown = '52199934043';
+global.wm2 = `${dia} ${fecha}\n𝘼𝙠𝙖𝙣𝙚 𝙁𝙖𝙮𝙧𝙭𝙯-𝙈𝘿`;
+global.gt = '𝘼𝙠𝙖𝙣𝙚 𝙁𝙖𝙮𝙧𝙭𝙯-𝙈𝘿';
+global.mysticbot = '𝘼𝙠𝙖𝙣𝙚 𝙁𝙖𝙮𝙧𝙭𝙯-𝙈𝘿';
+global.md = 'https://github.com/CrxstianEscobar/AkaneFayrxz-MD';
+global.mysticbot = 'https://github.com/CrxstianEscobar/AkaneFayrxz-MD';
+global.waitt = '*⏳ Cargando...*';
+global.waittt = '*⏳ Cargando...*';
+global.waitttt = '*⏳ Cargando...*';
+global.nomorown = '51927238856';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
