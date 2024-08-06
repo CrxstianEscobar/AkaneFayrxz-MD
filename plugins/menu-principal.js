@@ -84,8 +84,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 > ${saludo}
 > ${week}, ${date}
 > ${d.toLocaleTimeString(locale, opciones)}  | |  Perú - Lima
-*˚₊·˚₊· ͟͟͞͞➳❥ _Shadow Bot-SX_*
-*☆═━┈◈ ╰ 1.4.0 SB ╯ ◈┈━═☆*
+*˚₊·˚₊· ͟͟͞͞➳❥ *_Akane Fayrxz_*
+*☆═━┈◈ ╰ 1.4.0 MD ╯ ◈┈━═☆*
 *│* 
 *╰ ˚₊·˚₊· ͟͟͞͞➳❥ _By Cristian_*
 *⊰᯽⊱┈──╌•|* ⊱✿⊰ *|•╌──┈⊰᯽⊱*
@@ -102,7 +102,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *⎔ _Tokens:_* _${joincount}_
 *⎔ _Premium:_* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ㅤ· · ────── ·•· ────── · · 
-𝙎𝙝𝙖𝙙𝙤𝙬 𝘽𝙤𝙩-𝙎𝙓 : 𝙐𝙨𝙭𝙧 𝘾𝙧𝙭𝙭𝙨 🥀
+𝘼𝙠𝙖𝙣𝙚 𝘽𝙤𝙩 - 𝙈𝘿 : 𝙐𝙨𝙭𝙧 𝘾𝙧𝙭𝙭𝙨 🥀
 - Para el menú completo usa *.allmenu*
 ㅤ· · ────── ·•· ────── · · 
 *╭┄⊰* ${tradutor.texto1[0]}
