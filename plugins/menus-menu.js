@@ -20,8 +20,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `> ⓘ ¡Hola!, ${taguser}
 > ${date}
-*˚₊·˚₊· ͟͟͞͞➳❥ _Shadow Bot-SX_*
-*☆═━┈◈ ╰ 1.4.0 SB ╯ ◈┈━═☆*
+*˚₊·˚₊· ͟͟͞͞➳❥ *_Akane Fayrxz_*
+*☆═━┈◈ ╰ 1.4.0 MD ╯ ◈┈━═☆*
 *│* 
 *╰ ˚₊·˚₊· ͟͟͞͞➳❥ _By Cristian_*
 *⊰᯽⊱┈──╌•|* ⊱✿⊰ *|•╌──┈⊰᯽⊱*
@@ -160,6 +160,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *╭┄⊰* ${tradutor.texto1[8]}
 *│* დ _.simi *txt*_
 *│* დ _.ia *txt*_
+*│* დ _.iamates_
+*│* დ _.iabox_
 *│* დ _.delchatgpt_
 *│* დ _.iavoz *txt*_
 *│* დ _.dalle *txt*_
