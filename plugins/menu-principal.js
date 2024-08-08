@@ -84,7 +84,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 > ${saludo}
 > ${week}, ${date}
 > ${d.toLocaleTimeString(locale, opciones)}  | |  Perú - Lima
-*˚₊·˚₊· ͟͟͞͞➳❥ *_Akane Fayrxz_*
+*˚₊·˚₊· ͟͟͞͞➳❥ _Akane Fayrxz_*
 *☆═━┈◈ ╰ 1.4.0 MD ╯ ◈┈━═☆*
 *│* 
 *╰ ˚₊·˚₊· ͟͟͞͞➳❥ _By Cristian_*
