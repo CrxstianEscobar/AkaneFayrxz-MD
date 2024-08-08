@@ -11,7 +11,7 @@ const handler = async (m, {conn, usedPrefix}) => {
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const str = `> ⓘ ¡Hola!, ${taguser}
 > ${date}
-*˚₊·˚₊· ͟͟͞͞➳❥ _Shadow Bot-SX_*
+*˚₊·˚₊· ͟͟͞͞➳❥ *_Akane Fayrxz_*
 *☆═━┈◈ ╰ 1.4.0 SB ╯ ◈┈━═☆*
 *│* 
 *╰ ˚₊·˚₊· ͟͟͞͞➳❥ _By Cristian_*
@@ -53,7 +53,7 @@ const handler = async (m, {conn, usedPrefix}) => {
 *│* დ _.addprem2 *@tag / tiempo*_
 *│* დ _.addprem3 *@tag / tiempo*_
 *│* დ _.addprem4 *@tag / tiempo*_
-*│* დ _.del prem *@tag*_
+*│* დ _.delprem *@tag*_
 *│* დ _.setppbot *img*_
 *╰─────────────────┄⊰*`.trim();
     if (m.isGroup) {
