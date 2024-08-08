@@ -21,7 +21,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const str = `> ⓘ ¡Hola!, ${taguser}
 > ${date}
 *˚₊·˚₊· ͟͟͞͞➳❥ _Akane Fayrxz_*
-*☆═━┈◈ ╰ 1.4.0 SB ╯ ◈┈━═☆*
+*☆═━┈◈ ╰ 1.4.0 MD ╯ ◈┈━═☆*
 *│* 
 *╰ ˚₊·˚₊· ͟͟͞͞➳❥ _By Cristian_*
 *⊰᯽⊱┈──╌•|* ⊱✿⊰ *|•╌──┈⊰᯽⊱*
