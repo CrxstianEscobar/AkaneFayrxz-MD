@@ -1,8 +1,5 @@
 import fetch from 'node-fetch';
 
-
-
-
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   const datas = global
   const idioma = datas.db.data.users[m.sender].language
@@ -23,7 +20,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const str = `> ⓘ ¡Hola!, ${taguser}
 > ${date}
 *˚₊·˚₊· ͟͟͞͞➳❥ _Akane Fayrxz_*
-*☆═━┈◈ ╰ 1.4.0 SB ╯ ◈┈━═☆*
+*☆═━┈◈ ╰ 1.4.0 MD ╯ ◈┈━═☆*
 *│* 
 *╰ ˚₊·˚₊· ͟͟͞͞➳❥ _By Cristian_*
 *⊰᯽⊱┈──╌•|* ⊱✿⊰ *|•╌──┈⊰᯽⊱*
