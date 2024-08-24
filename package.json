@@ -1,5 +1,5 @@
 {
-  "name": "AkaneFayrxz-MD",
+  "name": "TheMystic-Bot-MD",
   "version": "1.0.0",
   "description": "Subs. al canal de YT The Shadow Borkers - TEAM",
   "main": "index.js",
@@ -18,13 +18,13 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/CrxstianEscobar/AkaneFayrxz-MD",
+  "homepage": "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
   "author": {
-    "name": "CrxstianEscobar"
+    "name": "BrunoSobrino"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CrxstianEscobar/AkaneFayrxz-MD.git"
+    "url": "git+https://github.com/BrunoSobrino/TheMystic-Bot-MD.git"
   },
   "bugs": {
     "url": "https://github.com/BrunoSobrino/TheMystic-Bot-MD/issues"
@@ -39,7 +39,7 @@
     "@sefinek/google-tts-api": "*",
     "@shineiichijo/marika": "^2.0.6",
     "@vitalets/google-translate-api": "^8.0.0",
-    "@whiskeysockets/baileys": "npm:@whiskeysockets/baileys@6.7.7",
+    "@whiskeysockets/baileys": "npm:@whiskeysockets/baileys@6.7.2",
     "acrcloud": "^1.4.0",
     "api-dylux": "^1.6.2",
     "aptoide-scraper": "^1.0.1",
@@ -49,7 +49,7 @@
     "cfonts": "^2.10.0",
     "chalk": "^5.0.0",
     "chart.js": "^4.4.2",
-    "cheerio": "npm:cheerio@1.0.0-rc.12",
+    "cheerio": "1.0.0-rc.12", 
     "colors": "1.4.0",
     "d3-node": "^3.0.0",
     "esm": "^3.2.25",
@@ -106,5 +106,4 @@
     "eslint": "^8.45.0",
     "eslint-config-google": "^0.14.0"
   }
-}
   }
